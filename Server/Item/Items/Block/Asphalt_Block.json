@@ -1,0 +1,85 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Asphalt_Block.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Asphalt_Block.png",
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone_Brick",
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "",
+        "ItemId": "Soil_Pebbles"
+      },
+      {
+        "ItemId": "Soil_Sand"
+      },
+      {
+        "ItemId": "Ingredient_Tree_Sap"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Roadsigns_Basics"
+        ],
+        "Id": "Roadsigns_Bench"
+      }
+    ],
+    "OutputQuantity": 4
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "Textures": [
+      {
+        "All": "Resources/Textures/Blocks/asphalt.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#737055",
+    "BlockSoundSetId": "Stone"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Bricks"
+    },
+    {
+      "Id": "Rock_Stone_Brick"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Asphalt"
+    ],
+    "Family": [
+      "Asphalt"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

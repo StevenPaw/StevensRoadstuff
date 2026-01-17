@@ -1,0 +1,27 @@
+items.Bench_Roadsigns.name=Roadsign Workbench
+items.Bench_Roadsigns.description=A workbench for crafting roadsigns
+items.Roadsign_Stand.name=Roadsign Stand
+benchCategories.roadsigns.basics=Roadsign Basics
+benchCategories.roadsigns.signs=Signs
+
+items.Stop_Sign.name=Stop Sign
+items.NoPassage_Sign.name=No Passage Sign
+items.Tempo20_Sign.name=Tempo 20 Sign
+items.Tempo30_Sign.name=Tempo 30 Sign
+items.Tempo40_Sign.name=Tempo 40 Sign
+items.Tempo50_Sign.name=Tempo 50 Sign
+items.Tempo60_Sign.name=Tempo 60 Sign
+items.Tempo70_Sign.name=Tempo 70 Sign
+items.Tempo80_Sign.name=Tempo 80 Sign
+items.Tempo90_Sign.name=Tempo 90 Sign
+items.Tempo100_Sign.name=Tempo 100 Sign
+items.Tempo110_Sign.name=Tempo 110 Sign
+items.Tempo120_Sign.name=Tempo 120 Sign
+items.TempoNone_Sign.name=Tempo None Sign
+items.PriorityRoad_Sign.name=Priority Road Sign
+items.Yield_Sign.name=Yield Sign
+
+items.RoadCone.name=Road Cone
+items.Asphalt_Block.name=Asphalt Block
+items.Asphalt_Block_Half.name=Asphalt Half Slab
+items.Asphalt_Block_Stair.name=Asphalt Stair

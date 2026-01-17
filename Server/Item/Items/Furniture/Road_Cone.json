@@ -1,0 +1,98 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.RoadCone.name",
+    "Description": ""
+  },
+  "Icon": "Icons/ItemsGenerated/Road_Cone.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "",
+        "ItemId": "Cloth_Block_Wool_White"
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Orange"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Roadsigns_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Roadsigns_Basics"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 5
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Resources/Models/roadcone.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Textures/roadcone.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Rubble",
+    "Flags": {},
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Soft": {
+        "ItemId": "Road_Cone"
+      },
+      "Harvest": {
+        "ItemId": "Road_Cone"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "BlockParticleSetId": "Dust",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#954600",
+    "BlockSoundSetId": "Stone"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rubble"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Rubble",
+      "Flint"
+    ]
+  },
+  "MaxStack": 100,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      15,
+      45,
+      15
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Group": "stevenpaw",
+  "Name": "stevensfurniture",
+  "Version": "1.0.0",
+  "Description": "",
+  "Authors": [
+    {
+      "Name": "Steven Paw",
+      "Email": "",
+      "Url": "stevenpaw.de"
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

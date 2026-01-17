@@ -1,0 +1,90 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Roadsign_Stand.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Set": "Furniture_Roadsigns",
+  "Icon": "Icons/ItemsGenerated/Roadsign_Stand.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "",
+        "ItemId": "Ingredient_Bar_Iron"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Roadsigns_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Roadsigns_Basics"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 2
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Resources/Models/roadsign_stand.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Textures/roadsign_stand.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": false
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Roadsigns",
+    "HitboxType": "Roadsign_Stand",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#313131",
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "South": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Crude"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Model": "Resources/Models/roadsign_stand.blockymodel",
+  "Texture": "Resources/Textures/roadsign_stand.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -8,
+      -9
+    ]
+  }
+}
