@@ -1,0 +1,92 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.SlopeUp_Sign.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Set": "Furniture_Roadsigns",
+  "Icon": "Icons/ItemsGenerated/SlopeUp_Sign.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "",
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Roadsigns_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Roadsigns_Signs"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Resources/Models/sign_stop.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Textures/sign_slopeup.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": false
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Roadsigns",
+    "HitboxType": "Stop_Sign",
+    "Material": "Solid",
+    "Opacity": "Semitransparent",
+    "ParticleColor": "#313131",
+    "VariantRotation": "NESW",
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "MaxSupportDistance": 0
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Crude"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Model": "Resources/Models/sign_stop.blockymodel",
+  "Texture": "Resources/Textures/sign_slopeup.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -16
+    ]
+  }
+}

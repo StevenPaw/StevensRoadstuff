@@ -4,8 +4,6 @@ items.Roadsign_Stand.name=Roadsign Stand
 benchCategories.roadsigns.basics=Roadsign Basics
 benchCategories.roadsigns.signs=Signs
 
-items.Stop_Sign.name=Stop Sign
-items.NoPassage_Sign.name=No Passage Sign
 items.Tempo20_Sign.name=Tempo 20 Sign
 items.Tempo30_Sign.name=Tempo 30 Sign
 items.Tempo40_Sign.name=Tempo 40 Sign
@@ -18,8 +16,32 @@ items.Tempo100_Sign.name=Tempo 100 Sign
 items.Tempo110_Sign.name=Tempo 110 Sign
 items.Tempo120_Sign.name=Tempo 120 Sign
 items.TempoNone_Sign.name=Tempo None Sign
+
 items.PriorityRoad_Sign.name=Priority Road Sign
 items.Yield_Sign.name=Yield Sign
+items.Stop_Sign.name=Stop Sign
+items.NoPassage_Sign.name=No Passage Sign
+
+items.RailwayCrossing_Sign.name=Railway Crossing Sign
+items.Danger_Sign.name=Danger Sign
+items.Crossing_Sign.name=Crossing Sign
+items.HardTurnLeft_Sign.name=Hard Turn Left Sign
+items.HardTurnRight_Sign.name=Hard Turn Right Sign
+items.DoubleCurveLeft_Sign.name=Double Curve (Left) Sign
+items.DoubleCurveRight_Sign.name=Double Curve (Right) Sign
+items.SlopeDown_Sign.name=Slope Down Sign
+items.SlopeUp_Sign.name=Slope Up Sign
+items.SpinDanger_Sign.name=Spin Danger Sign
+items.NarrowedRoadway_Sign.name=Narrowed Roadway Sign
+items.NarrowedRoadwayRight_Sign.name=Narrowed Roadway (Right) Sign
+items.NarrowedRoadwayLeft_Sign.name=Narrowed Roadway (Left) Sign
+items.ConstructionSite_Sign.name=Construction Site Sign
+items.OncomingTraffic_Sign.name=Oncoming Traffic Sign
+items.TrafficLight_Sign.name=Traffic Light Sign
+items.Pedestrian_Sign.name=Pedestrian Sign
+items.CycleRight_Sign.name=Cycle (Right) Sign
+items.CycleLeft_Sign.name=Cycle (Left) Sign
+items.Bus_Sign.name=Bus Sign
 
 items.RoadCone.name=Road Cone
 items.Asphalt_Block.name=Asphalt Block
