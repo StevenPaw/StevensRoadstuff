@@ -1,0 +1,26 @@
+{
+  "Input": [
+    {
+      "ItemId": "",
+      "Quantity": 1,
+      "ItemTag": "Family:Roadsign"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Deco_Book_Pile_Large",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Iron",
+      "Quantity": 1
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Salvagebench"
+    }
+  ],
+  "TimeSeconds": 4
+}

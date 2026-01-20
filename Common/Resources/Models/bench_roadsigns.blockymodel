@@ -287,11 +287,11 @@
           "orientation": {"x": 0, "y": 0.15212, "z": 0, "w": 0.98836},
           "shape": {
             "type": "box",
-            "offset": {"x": 0, "y": 8, "z": 1.5},
+            "offset": {"x": 0, "y": 11, "z": 1.5},
             "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
-              "size": {"x": 4, "y": 12, "z": 3},
+              "size": {"x": 4, "y": 18, "z": 3},
               "isStaticBox": true
             },
             "textureLayout": {

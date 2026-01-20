@@ -56,7 +56,7 @@
     "Material": "Solid",
     "Opacity": "Semitransparent",
     "ParticleColor": "#313131",
-    "VariantRotation": "UpDownNESW",
+    "VariantRotation": "NESW",
     "Support": {
       "North": [
         {
@@ -71,7 +71,7 @@
       "Furniture"
     ],
     "Family": [
-      "Crude"
+      "Roadsign"
     ]
   },
   "ItemSoundSetId": "ISS_Items_Metal",
