@@ -45,7 +45,7 @@ items.CycleRight_Sign.name=Cycle (Right) Sign
 items.CycleLeft_Sign.name=Cycle (Left) Sign
 items.Bus_Sign.name=Bus Sign
 
-items.GrantPriority_Sign.name=Pass Left Sign
+items.GrantPriority_Sign.name=Grant Priority Sign
 items.OnlyLeft_Sign.name=Only Left Sign
 items.OnlyRight_Sign.name=Only Right Sign
 items.OnlyTurnLeft_Sign.name=Only Turn Left Sign
@@ -53,8 +53,10 @@ items.OnlyTurnRight_Sign.name=Only Turn Right Sign
 items.OnlyForwardRight_Sign.name=Only Forward or Right Sign
 items.OnlyForwardLeft_Sign.name=Only Forward or Left Sign
 items.OnlyForward_Sign.name=Only Forward Sign
+items.PassRight_Sign.name=Pass Right Sign
 items.PassLeft_Sign.name=Pass Left Sign
 items.BusStation_Sign.name=Bus Station Sign
+
 items.NoCars_Sign.name=No Cars Sign
 items.NoTrucks_Sign.name=No Trucks Sign
 items.OneWay_Sign.name=One Way Sign
