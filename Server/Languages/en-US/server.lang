@@ -53,10 +53,10 @@ items.OnlyTurnRight_Sign.name=Only Turn Right Sign
 items.OnlyForwardRight_Sign.name=Only Forward or Right Sign
 items.OnlyForwardLeft_Sign.name=Only Forward or Left Sign
 items.OnlyForward_Sign.name=Only Forward Sign
+items.Roundabout_Sign.name=Roundabout Sign
 items.PassRight_Sign.name=Pass Right Sign
 items.PassLeft_Sign.name=Pass Left Sign
 items.BusStation_Sign.name=Bus Station Sign
-
 items.NoCars_Sign.name=No Cars Sign
 items.NoTrucks_Sign.name=No Trucks Sign
 items.OneWay_Sign.name=One Way Sign
@@ -71,6 +71,14 @@ items.NoStanding_Sign.name=No Standing Sign
 items.NoStandingLeft_Sign.name=No Standing Left Sign
 items.NoStandingRight_Sign.name=No Standing Right Sign
 items.NoStandingBoth_Sign.name=No Standing Both Sides Sign
+items.Height2m_Sign.name=2 Blocks Height Limit Sign
+items.Width2m_Sign.name=2 Blocks Width Limit Sign
+items.Height2_M5_Sign.name=2.5 Blocks Height Limit Sign
+items.Width2_M5_Sign.name=2.5 Blocks Width Limit Sign
+items.PriorityRoadNext_Sign.name=Priority Road on next crossing Sign
+items.Parking_Sign.name=Parking Sign
+items.ParkingRight_Sign.name=Parking Right Sign
+items.ParkingLeft_Sign.name=Parking Left Sign
 
 items.SecurityBeacon3Right_Sign.name=Security Beacon (3 Stripes Right) Sign
 items.SecurityBeacon3Left_Sign.name=Security Beacon (3 Stripes Left) Sign

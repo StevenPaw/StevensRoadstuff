@@ -1,0 +1,48 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Width2_M5_Sign.name"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "",
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Roadsigns_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Roadsigns_Signs"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "Icon": "Icons/ItemsGenerated/Width2_M5_Sign.png",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Textures/sign_2-5mwidth.png",
+        "Weight": 1
+      }
+    ]
+  },
+  "Texture": "Resources/Textures/sign_2-5mwidth.png",
+  "Parent": "Stop_Sign",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -16
+    ]
+  }
+}
