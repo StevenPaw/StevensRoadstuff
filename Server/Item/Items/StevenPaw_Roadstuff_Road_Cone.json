@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Roadstuff_Road_Cone.name",
+    "Description": ""
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Road_Cone.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_White"
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Orange"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
+        "Type": "Crafting",
+        "Categories": [
+          "StevenPaw_Roadstuff_Roadsigns_Basics"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 5
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/StevenPaw_Roadstuff_Road_Cone.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/StevenPaw_Roadstuff_Roadcone.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Rubble",
+    "Flags": {},
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Soft": {
+        "ItemId": "StevenPaw_Roadstuff_Road_Cone"
+      },
+      "Harvest": {
+        "ItemId": "StevenPaw_Roadstuff_Road_Cone"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "BlockParticleSetId": "Dust",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#954600",
+    "BlockSoundSetId": "Stone"
+  },
+  "PlayerAnimationsId": "Item",
+  "MaxStack": 100,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      15,
+      45,
+      15
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  }
+}

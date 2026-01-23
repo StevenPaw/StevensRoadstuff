@@ -1,7 +1,7 @@
 {
-  "Group": "stevenpaw",
-  "Name": "stevensroadstuff",
-  "Version": "0.2.0",
+  "Group": "StevenPaw",
+  "Name": "Stevens Roadstuff",
+  "Version": "0.4.0",
   "Description": "",
   "Authors": [
     {
@@ -10,10 +10,9 @@
       "Url": "stevenpaw.de"
     }
   ],
-  "Website": "",
+  "Website": "https://www.curseforge.com/hytale/mods/stevens-roadstuff",
   "Dependencies": {},
   "OptionalDependencies": {},
-  "LoadBefore": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": false,
   "SubPlugins": []

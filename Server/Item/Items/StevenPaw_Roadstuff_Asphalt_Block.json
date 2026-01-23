@@ -1,0 +1,73 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Roadstuff_Asphalt_Block.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Asphalt_Block.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "FuelQuality": 6.0,
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "",
+        "ItemId": "Soil_Pebbles"
+      },
+      {
+        "ItemId": "Soil_Sand"
+      },
+      {
+        "ItemId": "Ingredient_Tree_Sap"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
+        "Type": "Crafting",
+        "Categories": [
+          "StevenPaw_Roadstuff_Roadsigns_Basics"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 4
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "Textures": [
+      {
+        "Weight": 5,
+        "All": "BlockTextures/StevenPaw_Roadstuff_Asphalt.png"
+      }
+    ],
+    "ParticleColor": "#383838",
+    "BlockSoundSetId": "Stone"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

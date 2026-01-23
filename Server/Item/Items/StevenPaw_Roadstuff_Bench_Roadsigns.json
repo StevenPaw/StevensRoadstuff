@@ -1,0 +1,130 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Roadstuff_Bench_Roadsigns.name",
+    "Description": "server.items.StevenPaw_Roadstuff_Bench_Roadsigns.description"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 3,
+        "ItemId": "Ingredient_Bar_Iron"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Bench_Roadsigns.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "StevenPaw_Roadstuff_Bench_Roadsigns",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "StevenPaw_Roadstuff_Roadsigns_Basics",
+          "Icon": "Icons/CraftingCategories/Roadsigns/Basics.png",
+          "Name": "server.BenchCategories.StevenPaw_Roadstuff_Roadsigns.Basics"
+        },
+        {
+          "Id": "StevenPaw_Roadstuff_Roadsigns_Signs",
+          "Icon": "Icons/CraftingCategories/Roadsigns/Signs.png",
+          "Name": "server.BenchCategories.StevenPaw_Roadstuff_Roadsigns.Signs"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
+      "TierLevels": [
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 10
+              }
+            ],
+            "TimeSeconds": 1.0
+          }
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 15
+              }
+            ],
+            "TimeSeconds": 1.0
+          }
+        }
+      ]
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#4e4137",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Metal"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.42,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      13,
+      -13.2
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Items_Metal"
+}

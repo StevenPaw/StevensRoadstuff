@@ -1,0 +1,87 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Roadstuff_Roadsign_Stand.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Set": "Furniture_Roadsigns",
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Roadsign_Stand.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
+        "Type": "Crafting",
+        "Categories": [
+          "StevenPaw_Roadstuff_Roadsigns_Basics"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 2
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/StevenPaw_Roadstuff_Roadsign_Stand.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/StevenPaw_Roadstuff_Roadsign_Stand.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": false
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Roadsigns",
+    "HitboxType": "StevenPaw_Roadstuff_Roadsign_Stand",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#313131",
+    "VariantRotation": "UpDownNESW",
+    "Supporting": {
+      "South": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Crude"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -8,
+      -9
+    ]
+  }
+}

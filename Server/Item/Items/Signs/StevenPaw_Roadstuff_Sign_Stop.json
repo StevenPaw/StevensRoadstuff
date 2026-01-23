@@ -1,0 +1,91 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Roadstuff_Sign_Stop.name"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
+        "Type": "Crafting",
+        "Categories": [
+          "StevenPaw_Roadstuff_Roadsigns_Signs"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Signs"
+  ],
+  "Set": "Furniture_Roadsigns",
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Sign_Stop.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/Signs/StevenPaw_Roadstuff_Sign_Stop.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Signs/StevenPaw_Roadstuff_Sign_Stop.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": false
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Group": "Roadsigns",
+    "HitboxType": "StevenPaw_Roadstuff_Sign_Stop",
+    "Material": "Solid",
+    "Opacity": "Semitransparent",
+    "ParticleColor": "#313131",
+    "VariantRotation": "NESW",
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "MaxSupportDistance": 0
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Roadsign"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Model": "Blocks/Signs/StevenPaw_Roadstuff_Sign_Stop.blockymodel",
+  "Texture": "Blocks/Signs/StevenPaw_Roadstuff_Sign_Stop.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -16
+    ]
+  }
+}
