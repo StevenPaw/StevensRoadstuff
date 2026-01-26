@@ -1,0 +1,45 @@
+{
+  "Parent": "StevenPaw_Roadstuff_Marking_Line",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Markings/StevenPaw_Roadstuff_Marking_ArrowWide.png"
+      }
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Rock_Chalk",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
+        "Type": "Crafting",
+        "Categories": [
+          "StevenPaw_Roadstuff_Roadsigns_Markings"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "OutputQuantity": 8
+  },
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      90,
+      90,
+      90
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Roadstuff_Marking_ArrowWide.name"
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Marking_ArrowWide.png"
+}

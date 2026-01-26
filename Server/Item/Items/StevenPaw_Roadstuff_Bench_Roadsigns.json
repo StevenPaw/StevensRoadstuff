@@ -49,6 +49,11 @@
           "Id": "StevenPaw_Roadstuff_Roadsigns_Signs",
           "Icon": "Icons/CraftingCategories/Roadsigns/Signs.png",
           "Name": "server.BenchCategories.StevenPaw_Roadstuff_Roadsigns.Signs"
+        },
+        {
+          "Id": "StevenPaw_Roadstuff_Roadsigns_Markings",
+          "Icon": "Icons/CraftingCategories/Roadsigns/Markings.png",
+          "Name": "server.BenchCategories.StevenPaw_Roadstuff_Roadsigns.Markings"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",

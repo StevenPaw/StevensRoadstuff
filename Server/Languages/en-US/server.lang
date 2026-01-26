@@ -3,6 +3,7 @@ items.StevenPaw_Roadstuff_Bench_Roadsigns.description=A workbench for crafting r
 items.StevenPaw_Roadstuff_Roadsign_Stand.name=Roadsign Stand
 BenchCategories.StevenPaw_Roadstuff_Roadsigns.Basics=Basics
 BenchCategories.StevenPaw_Roadstuff_Roadsigns.Signs=Signs
+BenchCategories.StevenPaw_Roadstuff_Roadsigns.Markings=Markings
 
 items.StevenPaw_Roadstuff_St_Andreas_Cross.name=St. Andreas Cross
 
@@ -90,3 +91,26 @@ items.StevenPaw_Roadstuff_Sign_SecurityBeacon1Left.name=Security Beacon (1 Strip
 items.StevenPaw_Roadstuff_Road_Cone.name=Road Cone
 items.StevenPaw_Roadstuff_Asphalt_Block.name=Asphalt Block
 items.StevenPaw_Roadstuff_Asphalt_Block_Half.name=Asphalt Half Slab
+
+items.StevenPaw_Roadstuff_Marking_Line.name=Roadmarking - Line
+items.StevenPaw_Roadstuff_Marking_Arrow.name=Roadmarking - Arrow
+items.StevenPaw_Roadstuff_Marking_ArrowWide.name=Roadmarking - Arrow Wide
+items.StevenPaw_Roadstuff_Marking_Curve.name=Roadmarking - Curve
+items.StevenPaw_Roadstuff_Marking_LineAndLeft.name=Roadmarking - Line forward and left
+items.StevenPaw_Roadstuff_Marking_LineAndRight.name=Roadmarking - Line forward and right
+items.StevenPaw_Roadstuff_Marking_LineAndBoth.name=Roadmarking - Line forward, left and right
+items.StevenPaw_Roadstuff_Marking_LineDiagonal.name=Roadmarking - Diagonal
+items.StevenPaw_Roadstuff_Marking_LineSide.name=Roadmarking - Side
+items.StevenPaw_Roadstuff_Marking_LineSideEdge.name=Roadmarking - Side Edge 1
+items.StevenPaw_Roadstuff_Marking_LineSideEdgeOuter.name=Roadmarking - Side Edge Outer 1
+items.StevenPaw_Roadstuff_Marking_LineSideEdge2.name=Roadmarking - Side Edge 2
+items.StevenPaw_Roadstuff_Marking_LineSideEdgeOuter2.name=Roadmarking - Side Edge Outer 2
+items.StevenPaw_Roadstuff_Marking_LineSideWithStopline.name=Roadmarking - Side with Stopline
+items.StevenPaw_Roadstuff_Marking_Stopline.name=Roadmarking - Stopline
+items.StevenPaw_Roadstuff_Marking_LineWithStopline.name=Roadmarking - Line with Stopline
+items.StevenPaw_Roadstuff_Marking_LineThroughWithStopline.name=Roadmarking - Line through with Stopline
+items.StevenPaw_Roadstuff_Marking_LineWithStoplineLeft.name=Roadmarking - Line with Stopline Left
+items.StevenPaw_Roadstuff_Marking_LineWithStoplineRight.name=Roadmarking - Line with Stopline Right
+items.StevenPaw_Roadstuff_Marking_Crosswalk.name=Roadmarking - Crosswalk
+items.StevenPaw_Roadstuff_Marking_ArrowLeft.name=Roadmarking - Arrow Left
+items.StevenPaw_Roadstuff_Marking_ArrowRight.name=Roadmarking - Arrow Right

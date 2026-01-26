@@ -1,0 +1,77 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Roadstuff_Marking_Line.name"
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Marking_Line.png",
+  "Categories": [
+    "Blocks.Plants"
+  ],
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      90,
+      90,
+      88
+    ],
+    "Translation": [
+      0,
+      -1
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Flower"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Markings/StevenPaw_Roadstuff_Roadmarking.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Markings/StevenPaw_Roadstuff_Marking_Line.png",
+        "Weight": 1
+      }
+    ],
+    "Opacity": "Semitransparent",
+    "Group": "Sand",
+    "HitboxType": "StevenPaw_Roadstuff_Marking",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockParticleSetId": "Flower",
+    "BlockSoundSetId": "Dirt",
+    "Material": "Solid",
+    "VariantRotation": "NESW"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Rock_Chalk",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
+        "Type": "Crafting",
+        "Categories": [
+          "StevenPaw_Roadstuff_Roadsigns_Markings"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "OutputQuantity": 8
+  }
+}
