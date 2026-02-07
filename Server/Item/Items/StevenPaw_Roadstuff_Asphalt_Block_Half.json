@@ -42,8 +42,6 @@
   "Recipe": {
     "Input": [
       {
-        "Quantity": 1,
-        "ResourceTypeId": "",
         "ItemId": "Soil_Pebbles"
       },
       {

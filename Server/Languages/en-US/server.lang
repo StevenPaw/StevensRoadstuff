@@ -4,6 +4,7 @@ items.StevenPaw_Roadstuff_Roadsign_Stand.name=Roadsign Stand
 BenchCategories.StevenPaw_Roadstuff_Roadsigns.Basics=Basics
 BenchCategories.StevenPaw_Roadstuff_Roadsigns.Signs=Signs
 BenchCategories.StevenPaw_Roadstuff_Roadsigns.Markings=Markings
+BenchCategories.StevenPaw_Roadstuff_Roadsigns.Lights=Lights
 
 items.StevenPaw_Roadstuff_St_Andreas_Cross.name=St. Andreas Cross
 
@@ -114,3 +115,15 @@ items.StevenPaw_Roadstuff_Marking_LineWithStoplineRight.name=Roadmarking - Line 
 items.StevenPaw_Roadstuff_Marking_Crosswalk.name=Roadmarking - Crosswalk
 items.StevenPaw_Roadstuff_Marking_ArrowLeft.name=Roadmarking - Arrow Left
 items.StevenPaw_Roadstuff_Marking_ArrowRight.name=Roadmarking - Arrow Right
+
+items.StevenPaw_Roadstuff_Lightsignal.name=Light Signal (3 Lights)
+items.StevenPaw_Roadstuff_Lightsignal_Forward.name=Light Signal (3 Lights - Forward)
+items.StevenPaw_Roadstuff_Lightsignal_Right.name=Light Signal (3 Lights - Right)
+items.StevenPaw_Roadstuff_Lightsignal_Left.name=Light Signal (3 Lights - Left)
+
+items.StevenPaw_Roadstuff_Lightsignal2Lights.name=Light Signal (2 Lights)
+items.StevenPaw_Roadstuff_Lightsignal2Lights_Forward.name=Light Signal (2 Lights - Forward)
+items.StevenPaw_Roadstuff_Lightsignal2Lights_Right.name=Light Signal (2 Lights - Right)
+items.StevenPaw_Roadstuff_Lightsignal2Lights_Left.name=Light Signal (2 Lights - Left)
+
+items.StevenPaw_Roadstuff_LightsignalSingle.name=Light Signal (Single)

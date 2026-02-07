@@ -1,0 +1,166 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Roadstuff_LightsignalSingle.name"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Deco_Lantern",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
+        "Type": "Crafting",
+        "Categories": [
+          "StevenPaw_Roadstuff_Roadsigns_Lights"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Signs"
+  ],
+  "Set": "Furniture_Roadsigns",
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_LightsignalSingle.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal_Single.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal_Single_Green.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Group": "Roadsigns",
+    "HitboxType": "StevenPaw_Roadstuff_Lightsignal2Lights",
+    "Material": "Solid",
+    "Opacity": "Semitransparent",
+    "ParticleColor": "#313131",
+    "VariantRotation": "NESW",
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "RED",
+              "RED": "YELLOW",
+              "YELLOW": "GREEN",
+              "GREEN": "OFF",
+              "OFF": "BLINKING",
+              "BLINKING": "RED"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "RED": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal_Single_Red.png"
+            }
+          ],
+          "Light": {
+            "Color": "#f00",
+            "Radius": 1
+          }
+        },
+        "YELLOW": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal_Single_Yellow.png"
+            }
+          ],
+          "Light": {
+            "Color": "#fe0",
+            "Radius": 1
+          }
+        },
+        "GREEN": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal_Single_Green.png"
+            }
+          ],
+          "Light": {
+            "Color": "#0f0",
+            "Radius": 1
+          }
+        },
+        "OFF": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal_Single_Off.png"
+            }
+          ]
+        },
+        "BLINKING": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal_Single_Yellow.png"
+            }
+          ],
+          "CustomModelAnimation": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal_Blinking.blockyanim",
+          "Looping": true,
+          "Light": {
+            "Color": "#fe0",
+            "Radius": 0
+          }
+        }
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Roadsign"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      0,
+      45,
+      0
+    ],
+    "Translation": [
+      9,
+      -16
+    ]
+  }
+}

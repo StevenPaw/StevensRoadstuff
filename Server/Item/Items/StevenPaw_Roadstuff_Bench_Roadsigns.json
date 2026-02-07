@@ -54,6 +54,11 @@
           "Id": "StevenPaw_Roadstuff_Roadsigns_Markings",
           "Icon": "Icons/CraftingCategories/Roadsigns/Markings.png",
           "Name": "server.BenchCategories.StevenPaw_Roadstuff_Roadsigns.Markings"
+        },
+        {
+          "Id": "StevenPaw_Roadstuff_Roadsigns_Lights",
+          "Icon": "Icons/CraftingCategories/Roadsigns/Lights.png",
+          "Name": "server.BenchCategories.StevenPaw_Roadstuff_Roadsigns.Lights"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",
@@ -92,7 +97,47 @@
       "Id": "crafting",
       "Definitions": {
         "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
           "CustomModelAnimation": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns_Crafting.blockyanim"
+        },
+        "Tier2": {
+          "CustomModel": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns2.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns2.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "StevenPaw_Roadstuff_Bench_Roadsigns2",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns_Crafting2.blockyanim"
+              }
+            }
+          }
+        },
+        "Tier3": {
+          "CustomModel": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns3.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns3.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "StevenPaw_Roadstuff_Bench_Roadsigns3",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns_Crafting2.blockyanim"
+              }
+            }
+          }
         }
       }
     },
