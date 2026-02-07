@@ -1,0 +1,112 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Roadstuff_Roadsign_StandConnecting.name",
+    "Description": "server.items.StevenPaw_Roadstuff_Roadsign_StandConnecting.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Set": "Furniture_Roadsigns",
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Roadsign_StandConnecting.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
+        "Type": "Crafting",
+        "Categories": [
+          "StevenPaw_Roadstuff_Roadsigns_Basics"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 2
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/RoadsignStandConnecting/StevenPaw_Roadstuff_RoadsignStandConnecting_Junction.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/StevenPaw_Roadstuff_Roadsign_Stand.png"
+      }
+    ],
+    "DrawType": "Model",
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "StevenPaw_Roadstuff_Roadsign_StandConnecting"
+      }
+    },
+    "HitboxType": "StevenPaw_Roadstuff_RoadsignStandConnecting_Beam",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#313131",
+    "VariantRotation": "None",
+    "State": {
+      "Definitions": {
+        "Beam": {
+          "CustomModel": "Blocks/RoadsignStandConnecting/StevenPaw_Roadstuff_RoadsignStandConnecting_Beam.blockymodel"
+        },
+        "Start": {
+          "CustomModel": "Blocks/RoadsignStandConnecting/StevenPaw_Roadstuff_RoadsignStandConnecting_Start.blockymodel"
+        },
+        "Straight": {
+          "CustomModel": "Blocks/RoadsignStandConnecting/StevenPaw_Roadstuff_RoadsignStandConnecting_Straight.blockymodel"
+        },
+        "Corner": {
+          "CustomModel": "Blocks/RoadsignStandConnecting/StevenPaw_Roadstuff_RoadsignStandConnecting_Corner.blockymodel"
+        },
+        "T_Junction": {
+          "CustomModel": "Blocks/RoadsignStandConnecting/StevenPaw_Roadstuff_RoadsignStandConnecting_T_Junction.blockymodel"
+        },
+        "Cross_Junction": {
+          "CustomModel": "Blocks/RoadsignStandConnecting/StevenPaw_Roadstuff_RoadsignStandConnecting_Junction.blockymodel"
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "ConnectedBlockTemplate_RoadsignStandConnecting",
+      "TemplateShapeBlockPatterns": {
+        "Beam": "*StevenPaw_Roadstuff_Roadsign_StandConnecting_State_Definitions_Beam",
+        "Start": "*StevenPaw_Roadstuff_Roadsign_StandConnecting_State_Definitions_Start",
+        "Straight": "*StevenPaw_Roadstuff_Roadsign_StandConnecting_State_Definitions_Straight",
+        "Corner": "*StevenPaw_Roadstuff_Roadsign_StandConnecting_State_Definitions_Corner",
+        "T_Junction": "*StevenPaw_Roadstuff_Roadsign_StandConnecting_State_Definitions_T_Junction",
+        "Cross_Junction": "*StevenPaw_Roadstuff_Roadsign_StandConnecting_State_Definitions_Cross_Junction"
+      }
+    },
+    "Supporting": {
+      "All": [
+        {}
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

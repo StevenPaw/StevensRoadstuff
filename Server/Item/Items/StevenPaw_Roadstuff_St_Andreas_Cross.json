@@ -67,7 +67,34 @@
         }
       ]
     },
-    "MaxSupportDistance": 0
+    "MaxSupportDistance": 0,
+    "State": {
+      "Definitions": {
+        "Sign": {
+          "CustomModel": "Blocks/Signs/StevenPaw_Roadstuff_St_Andreas_Cross.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Signs/StevenPaw_Roadstuff_St_Andreas_Cross.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "StevenPaw_Roadstuff_Sign_Stop",
+          "Gathering": {
+            "Breaking": {
+              "GatherType": "Woods"
+            }
+          },
+          "DrawType": "Model"
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "ConnectedBlockTemplate_RoadsignSign",
+      "TemplateShapeBlockPatterns": {
+        "Sign": "*StevenPaw_Roadstuff_St_Andreas_Cross_State_Definitions_Sign"
+      }
+    }
   },
   "Tags": {
     "Type": [
