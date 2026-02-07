@@ -1,0 +1,146 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Roadstuff_Guidebar.name",
+    "Description": ""
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Guidebar.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_White"
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Orange"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
+        "Type": "Crafting",
+        "Categories": [
+          "StevenPaw_Roadstuff_Roadsigns_Basics"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "OutputQuantity": 5
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/StevenPaw_Roadstuff_Guidebar.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/StevenPaw_Roadstuff_Guidebar_LightOn.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "StevenPaw_Roadstuff_GuidebarWithLight",
+    "Flags": {},
+    "RandomRotation": "None",
+    "Gathering": {
+      "Soft": {
+        "ItemId": "StevenPaw_Roadstuff_Road_Cone"
+      },
+      "Harvest": {
+        "ItemId": "StevenPaw_Roadstuff_Road_Cone"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "BlockParticleSetId": "Dust",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#954600",
+    "BlockSoundSetId": "Stone",
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "LIGHTON",
+              "LIGHTON": "LIGHTBLINKING",
+              "LIGHTBLINKING": "LIGHTOFF",
+              "LIGHTOFF": "NOLIGHT",
+              "NOLIGHT": "LIGHTON"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "LIGHTON": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/StevenPaw_Roadstuff_Guidebar_LightOn.png"
+            }
+          ],
+          "Light": {
+            "Color": "#fe8",
+            "Radius": 5
+          }
+        },
+        "LIGHTBLINKING": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/StevenPaw_Roadstuff_Guidebar_LightOn.png"
+            }
+          ],
+          "Light": {
+            "Color": "#fd7",
+            "Radius": 4
+          },
+          "CustomModelAnimation": "Blocks/StevenPaw_Roadstuff_Guidebar_Blinking.blockyanim",
+          "Looping": true
+        },
+        "LIGHTOFF": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/StevenPaw_Roadstuff_Guidebar_LightOff.png"
+            }
+          ]
+        },
+        "NOLIGHT": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/StevenPaw_Roadstuff_Guidebar_NoLight.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Roadstuff_Guidebar"
+        }
+      }
+    }
+  },
+  "PlayerAnimationsId": "Item",
+  "MaxStack": 100,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 0.46,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -23
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  }
+}

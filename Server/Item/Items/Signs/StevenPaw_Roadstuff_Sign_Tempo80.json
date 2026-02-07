@@ -33,7 +33,7 @@
   "Texture": "Blocks/Signs/StevenPaw_Roadstuff_Sign_Tempo80.png",
   "Parent": "StevenPaw_Roadstuff_Sign_Stop",
   "IconProperties": {
-    "Scale": 0.8,
+    "Scale": 1,
     "Rotation": [
       0,
       0,

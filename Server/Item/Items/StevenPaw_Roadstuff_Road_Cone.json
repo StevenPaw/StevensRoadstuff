@@ -68,15 +68,15 @@
   "ItemSoundSetId": "ISS_Blocks_Stone",
   "DropOnDeath": true,
   "IconProperties": {
-    "Scale": 0.7,
+    "Scale": 0.9,
     "Rotation": [
-      15,
+      22.5,
       45,
-      15
+      22.5
     ],
     "Translation": [
       0,
-      -8
+      -6
     ]
   },
   "Interactions": {

@@ -73,7 +73,7 @@
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "IconProperties": {
-    "Scale": 0.8,
+    "Scale": 1,
     "Rotation": [
       22.5,
       45,

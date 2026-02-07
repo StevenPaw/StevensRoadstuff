@@ -77,7 +77,7 @@
   "Model": "Blocks/Signs/StevenPaw_Roadstuff_Sign_Stop.blockymodel",
   "Texture": "Blocks/Signs/StevenPaw_Roadstuff_Sign_Stop.png",
   "IconProperties": {
-    "Scale": 0.8,
+    "Scale": 1,
     "Rotation": [
       0,
       0,
