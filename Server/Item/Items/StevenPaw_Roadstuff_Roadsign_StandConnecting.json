@@ -26,10 +26,10 @@
         "Categories": [
           "StevenPaw_Roadstuff_Roadsigns_Basics"
         ],
-        "RequiredTierLevel": 1
+        "RequiredTierLevel": 4
       }
     ],
-    "OutputQuantity": 2
+    "OutputQuantity": 4
   },
   "BlockType": {
     "BlockParticleSetId": "Metal",

@@ -28,7 +28,7 @@
         "RequiredTierLevel": 1
       }
     ],
-    "OutputQuantity": 2
+    "OutputQuantity": 4
   },
   "BlockType": {
     "BlockParticleSetId": "Metal",
@@ -80,7 +80,7 @@
       22.5
     ],
     "Translation": [
-      -2,
+      -8,
       -9
     ]
   }

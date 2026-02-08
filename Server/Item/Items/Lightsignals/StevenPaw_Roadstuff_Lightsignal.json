@@ -87,22 +87,6 @@
     },
     "State": {
       "Definitions": {
-        "Sign": {
-          "CustomModel": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal.blockymodel",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal.png",
-              "Weight": 1
-            }
-          ],
-          "HitboxType": "StevenPaw_Roadstuff_Lightsignal",
-          "Gathering": {
-            "Breaking": {
-              "GatherType": "Rocks"
-            }
-          },
-          "DrawType": "Model"
-        },
         "RED": {
           "CustomModelTexture": [
             {
@@ -166,14 +150,9 @@
             "Color": "#fe0",
             "Radius": 0
           }
+        },
+        "Sign": {
         }
-      }
-    },
-    "ConnectedBlockRuleSet": {
-      "Type": "CustomTemplate",
-      "TemplateShapeAssetId": "ConnectedBlockTemplate_RoadsignSign",
-      "TemplateShapeBlockPatterns": {
-        "Sign": "*StevenPaw_Roadstuff_Lightsignal_State_Definitions_Sign"
       }
     }
   },
@@ -186,6 +165,8 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Metal",
+  "Model": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal.blockymodel",
+  "Texture": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal.png",
   "IconProperties": {
     "Scale": 1,
     "Rotation": [

@@ -83,13 +83,6 @@
           "DrawType": "Model"
         }
       }
-    },
-    "ConnectedBlockRuleSet": {
-      "Type": "CustomTemplate",
-      "TemplateShapeAssetId": "ConnectedBlockTemplate_RoadsignSign",
-      "TemplateShapeBlockPatterns": {
-        "Sign": "*StevenPaw_Roadstuff_Sign_Stop_State_Definitions_Sign"
-      }
     }
   },
   "Tags": {

@@ -126,6 +126,7 @@
     },
     "Group": "Roadsigns"
   },
+  "Texture": "Blocks/Lightsignals/StevenPaw_Roadstuff_Lightsignal_Right.png",
   "IconProperties": {
     "Scale": 1,
     "Rotation": [

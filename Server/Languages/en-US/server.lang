@@ -1,8 +1,8 @@
 items.StevenPaw_Roadstuff_Bench_Roadsigns.name=Roadsign Workbench
 items.StevenPaw_Roadstuff_Bench_Roadsigns.description=A workbench for crafting roadsigns
 items.StevenPaw_Roadstuff_Roadsign_Stand.name=Roadsign Stand
-items.StevenPaw_Roadstuff_Roadsign_StandConnecting.name=Roadsign Stand (Connecting)
-items.StevenPaw_Roadstuff_Roadsign_StandConnecting.description=Connects to other connecting Roadsign Stands and to Roadsigns
+items.StevenPaw_Roadstuff_Roadsign_StandConnecting.name=Roadsign Stand (BETA)
+items.StevenPaw_Roadstuff_Roadsign_StandConnecting.description=BETA BLOCK! Connects to other connecting Roadsign Stands and to Roadsigns
 BenchCategories.StevenPaw_Roadstuff_Roadsigns.Basics=Basics
 BenchCategories.StevenPaw_Roadstuff_Roadsigns.Signs=Signs
 BenchCategories.StevenPaw_Roadstuff_Roadsigns.Markings=Markings
