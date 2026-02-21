@@ -107,11 +107,11 @@
           "CustomModel": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns2.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns2.png",
+              "Texture": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns.png",
               "Weight": 1
             }
           ],
-          "HitboxType": "StevenPaw_Roadstuff_Bench_Roadsigns2",
+          "HitboxType": "StevenPaw_Roadstuff_Bench_Roadsigns",
           "State": {
             "Id": "crafting",
             "Definitions": {
@@ -125,11 +125,11 @@
           "CustomModel": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns3.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns3.png",
+              "Texture": "Blocks/Benches/StevenPaw_Roadstuff_Bench_Roadsigns.png",
               "Weight": 1
             }
           ],
-          "HitboxType": "StevenPaw_Roadstuff_Bench_Roadsigns3",
+          "HitboxType": "StevenPaw_Roadstuff_Bench_Roadsigns",
           "State": {
             "Id": "crafting",
             "Definitions": {

@@ -87,13 +87,6 @@
           "DrawType": "Model"
         }
       }
-    },
-    "ConnectedBlockRuleSet": {
-      "Type": "CustomTemplate",
-      "TemplateShapeAssetId": "ConnectedBlockTemplate_RoadsignSign",
-      "TemplateShapeBlockPatterns": {
-        "Sign": "*StevenPaw_Roadstuff_St_Andreas_Cross_State_Definitions_Sign"
-      }
     }
   },
   "Tags": {
