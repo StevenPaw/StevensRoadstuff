@@ -21,7 +21,6 @@
     ],
     "OutputQuantity": 1
   },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Sign_ParkingRight.png",
   "BlockType": {
     "CustomModelTexture": [
       {
@@ -43,5 +42,6 @@
       0,
       -16
     ]
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Roadstuff_Sign_ParkingRight.png"
 }
